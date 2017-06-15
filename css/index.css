@@ -1,6 +1,9 @@
 .news_box{
 	padding: 43px 0;
 	background-color: #fff;
+	min-width: 1200px;
+}
+.news_box .news{
 	overflow: hidden;
 }
 .news_box .news header,
@@ -98,6 +101,9 @@
 .notice_box{
 	padding: 43px 0;
 	background-color: #ff9450;
+	min-width: 1200px;
+}
+.notice_box .noticeinner{
 	overflow: hidden;
 }
 .notice_box .noticeinner header{
@@ -200,7 +206,7 @@
 .interaction_box{
 	padding: 43px 0;
 	background-color: #fff;
-	overflow: hidden;
+	min-width: 1200px;
 }
 .interaction_box .interaction ul.select{
 	width: 100%;
@@ -253,7 +259,7 @@
 .advertise_box{
 	padding: 80px 0 90px;
 	background-color: #ff9450;
-	overflow: hidden;
+	min-width: 1200px;
 }
 .advertise_box ul.advertise{
 	overflow: hidden;
@@ -301,7 +307,7 @@
 .friendshiplink_box{
 	padding: 40px 0;
 	background-color: #fff;
-	overflow: hidden;
+	min-width: 1200px;
 }
 .friendshiplink_box .friendshiplink ul{
 	width: 1024px;
