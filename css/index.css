@@ -1,0 +1,316 @@
+.news_box{
+	padding: 43px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.news_box .news header,
+.interaction_box .interaction header,
+.friendshiplink_box .friendshiplink header{
+	height: 50px;
+	margin-bottom: 20px;
+}
+.news_box .news header img,
+.interaction_box .interaction header img,
+.friendshiplink_box .friendshiplink header img{
+	float: left;
+	margin-right: 10px;
+}
+.news_box .news header span,
+.interaction_box .interaction header span,
+.friendshiplink_box .friendshiplink header span{
+	float: left;
+	line-height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fd6d0b;
+}
+.news_box .news .content .left{
+	float: left;
+}
+.news_box .news .content .left a{
+	float: left;
+	width: 381px;
+	margin-right: 18px;
+}
+.news_box .news .content .left a p{
+	margin-top: 20px;
+	line-height: 30px;
+	color: #333;
+	font-size: 18px;
+}
+.news_box .news .content .left a:hover p{
+	color: #fd6d0b;
+}
+.news_box .news .content .right{
+	float: right;
+	width: 398px;
+}
+.news_box .news .content .right .list{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.news_box .news .content .right .list a{
+	float: left;
+	width: 100%;
+	color: #333;
+	height: 30px;
+	line-height: 30px;
+}
+.news_box .news .content .right .list a i{
+	float: left;
+	width: 2px;
+	height: 2px;
+	margin: 14px 10px;
+	background-color: #000;
+}
+.news_box .news .content .right .list a p{
+	float: left;
+	width: 280px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news_box .news .content .right .list a span{
+	float: right;
+	width: 72px;
+}
+.news_box .news .content .right .list a:hover{
+	color: #fd6d0b;
+}
+.news_box .news .content .right .list a:hover i{
+	background-color: #fd6d0b;
+}
+.news_box .news .content .right .more{
+	float: left;
+	margin: 20px 0 0 10px;
+	color: #fd6d0b;
+}
+.news_box .news .content .right .more i{
+	float: right;
+	width: 0;
+	height: 0;
+	margin: 4px 0 0 5px;
+	border-top: 8px solid transparent;
+	border-left: 9px solid #fd6d0b;
+	border-bottom: 7px solid transparent;
+}
+.notice_box{
+	padding: 43px 0;
+	background-color: #ff9450;
+	overflow: hidden;
+}
+.notice_box .noticeinner header{
+	height: 50px;
+	margin-bottom: 20px;
+}
+.notice_box .noticeinner header img{
+	float: left;
+	margin-right: 10px;
+}
+.notice_box .noticeinner header span{
+	float: left;
+	line-height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+}
+.notice_box .noticeinner .notice{
+	float: left;
+	width: 750px;
+}
+.notice_box .noticeinner .notice .content .img{
+	float: left;
+	width: 380px;
+	height: 457px;
+}
+.notice_box .noticeinner .notice .content .right{
+	float: right;
+}
+.notice_box .noticeinner .notice .content .right ul{
+	width: 350px;
+	overflow: hidden;
+}
+.notice_box .noticeinner .notice .content .right ul li{
+	float: left;
+	width: 100%;
+	margin-bottom: 35px;
+}
+.notice_box .noticeinner .notice .content .right ul li div{
+	float: left;
+	width: 70px;
+	height: 65px;
+	background: url(../images/notice02.png);
+}
+.notice_box .noticeinner .notice .content .right ul li div span{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+.notice_box .noticeinner .notice .content .right ul li div span.span1{
+	margin-top: 5px;
+	color: #000;
+}
+.notice_box .noticeinner .notice .content .right ul li p{
+	float: right;
+	width: 265px;
+	color: #fff;
+}
+.notice_box .noticeinner .notice .content .right .more{
+	float: left;
+	margin: 35px 0 0;
+	color: #fff;
+}
+.notice_box .noticeinner .notice .content .right .more i,
+.notice_box .noticeinner .survey .content .more i{
+	float: right;
+	width: 0;
+	height: 0;
+	margin: 4px 0 0 5px;
+	border-top: 8px solid transparent;
+	border-left: 9px solid #fff;
+	border-bottom: 7px solid transparent;
+}
+.notice_box .noticeinner .survey{
+	float: right;
+	width: 398px;
+}
+.notice_box .noticeinner .survey .content{
+	width: 100%;
+}
+.notice_box .noticeinner .survey .content h3{
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: normal;
+}
+.notice_box .noticeinner .survey .content p{
+	color: #fff;
+	line-height: 30px;
+}
+.notice_box .noticeinner .survey .content .more{
+	float: left;
+	color: #fff;
+	margin: 10px 0 0;
+}
+.interaction_box{
+	padding: 43px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.interaction_box .interaction ul.select{
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0 45px;
+}
+.interaction_box .interaction ul.select li{
+	float: left;
+	padding: 25px;
+	margin-right: 40px;
+	cursor: pointer;
+	background-color: #f5f5f5;
+}
+.interaction_box .interaction ul.select li:hover,
+.interaction_box .interaction ul.select li.active{
+	background-color: #fd6d0b;
+	color: #fff;
+}
+.interaction_box .interaction ul.content li{
+	width: 100%;
+	overflow: hidden;
+}
+.interaction_box .interaction ul.content li a{
+	float: left;
+	width: 274px;
+	margin:0 25px 35px 0;
+}
+.interaction_box .interaction ul.content li a img{
+	float: left;
+}
+.interaction_box .interaction ul.content li a p{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.interaction_box .interaction ul.content li a p span{
+	width: 100%;
+	float: left;
+	text-align: center;
+	line-height: 26px;
+	color: #333;
+}
+.interaction_box .interaction ul.content li a p span.span{
+	font-size: 14px;
+}
+.interaction_box .interaction ul.content li a:hover p span{
+	color: #fd6d0b;
+}
+.advertise_box{
+	padding: 80px 0 90px;
+	background-color: #ff9450;
+	overflow: hidden;
+}
+.advertise_box ul.advertise{
+	overflow: hidden;
+}
+.advertise_box ul.advertise li{
+	float: left;
+	width: 240px;
+}
+.advertise_box ul.advertise li div{
+	float: left;
+	width: 100%;
+	height: 56px;
+}
+.advertise_box ul.advertise li div p{
+	width: 65px;
+	height: 56px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+.advertise_box ul.advertise li div p.p1{
+	background-image: url(../images/advertise01.png);
+}
+.advertise_box ul.advertise li div p.p2{
+	background-image: url(../images/advertise02.png);
+}
+.advertise_box ul.advertise li div p.p3{
+	background-image: url(../images/advertise03.png);
+}
+.advertise_box ul.advertise li div p.p4{
+	background-image: url(../images/advertise04.png);
+}
+.advertise_box ul.advertise li div p.p5{
+	background-image: url(../images/advertise05.png);
+}
+.advertise_box ul.advertise li span{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+}
+.friendshiplink_box{
+	padding: 40px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.friendshiplink_box .friendshiplink ul{
+	width: 1024px;
+	padding: 80px 0;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.friendshiplink_box .friendshiplink ul li{
+	width: 216px;
+	margin: 0 20px;
+	float: left;
+}

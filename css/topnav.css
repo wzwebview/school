@@ -1,0 +1,59 @@
+.nav_box{
+	background-color: #fff;
+	overflow: hidden;
+}
+.nav_box .nav .up{
+	padding: 30px 0 15px;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.nav_box .nav .up .logo{
+	float: left;
+}
+.nav_box .nav .up .search{
+	float: right;
+	height: 34px;
+	margin-top: 25px;
+}
+.nav_box .nav .up .search a{
+	float: left;
+	width: 51px;
+	height: 32px;
+	border: 1px solid #fd6d0b;
+	color: #fd6d0b;
+	text-align: center;
+	line-height: 32px;
+	margin-right: 27px;
+	border-radius: 4px;
+}
+.nav_box .nav .up .search form{
+	float: left;
+}
+.nav_box .nav .up .search form input[type="text"]{
+	width: 136px;
+	height: 32px;
+	border: 1px solid #fd6d0b;
+	border-radius: 4px;
+	padding-left: 40px;
+	background: url(../images/search.png) no-repeat 11px center;
+}
+.nav_box .nav ul.down{
+	width: 100%;
+	overflow: hidden;
+}
+.nav_box .nav ul.down li{
+	float: left;
+	margin:25px 33px;
+}
+.nav_box .nav ul.down li a{
+	color: #333;
+}
+.nav_box .nav ul.down li.active a,
+.nav_box .nav ul.down li a:hover{
+	color: #fd6d0b;
+}
+.banner{
+	height: 500px;
+	background: url(../images/banner.jpg) no-repeat center;
+}
