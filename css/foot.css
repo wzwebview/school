@@ -3,6 +3,9 @@
 	background-color: #f5f5f5;
 	min-width: 1200px;
 }
+.footer_box .footer{
+	overflow: hidden;
+}
 .footer_box .footer .img{
 	float: left;
 	width: 154px;

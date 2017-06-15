@@ -3,6 +3,9 @@
 	padding-bottom: 100px;
 	min-width: 1200px;
 }
+.content_box .content{
+	overflow: hidden;
+}
 .content_box .content header{
 	float: left;
 	width: 100%;
